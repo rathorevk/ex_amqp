@@ -2,10 +2,8 @@
 
 ## Requirements
 
-You landed your new job at Totally Reliable Code TM and you have been asked to create the following application.
-Our client asked for storing three different datasets that should be able to be queried from an API.
-( datasets given on the zip file)
-Our client is a bit picky and asked us to develop the following requirements:
+Create an application that stores three different datasets and that should be able to be queried from an API.
+Develop the following requirements:
   1. All data must be published to RabbitMQ and it must be separated by topics. (Topics are the three different datasets) must be async and should be as fast as possible.
   2. All RabbitMQ messages for each topic must be consumed asynchronously.
   3. Consumed data should be stored to PostgreSQL in any way you like
